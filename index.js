@@ -54,7 +54,7 @@ for(var i =0;i<document.querySelectorAll(" button").length;i++){
 
 
     });
-    document.addEventListener("keypress",function(event){
+    document.addEventListener("keydown",function(event){
        var keyP=event.key;
        switch (keyP) {
         case "w":
